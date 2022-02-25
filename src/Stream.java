@@ -13,9 +13,18 @@ import java.util.List;
  * @author Erick
  */
 public class Stream {
+      
+    public static void main(String[] args) {
+        List<String> list = new ArrayList<>();
+        
+        list.add("Erick");
+        list.add("Erick");
+        list.add("Erick");
+        
+        System.out.println(list.stream().getClass());
+        System.out.println(list.stream().count());
+    }
     
-    List<Integer> list = new ArrayList<>();
-    
-    
+   
     
 }
